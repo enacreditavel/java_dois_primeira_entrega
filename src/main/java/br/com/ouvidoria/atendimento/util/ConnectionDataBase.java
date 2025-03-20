@@ -1,4 +1,4 @@
-package br.com.ouvidoria.atendimento.services;
+package br.com.ouvidoria.atendimento.util;
 
 
 

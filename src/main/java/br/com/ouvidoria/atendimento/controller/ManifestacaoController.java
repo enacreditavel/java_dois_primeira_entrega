@@ -1,4 +1,4 @@
-package br.com.ouvidoria.atendimento.services;
+package br.com.ouvidoria.atendimento.controller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,8 +9,9 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 import br.com.ouvidoria.atendimento.entity.Manifestacao;
+import br.com.ouvidoria.atendimento.util.ConnectionDataBase;
 
-public class ManifestacaoService {
+public class ManifestacaoController {
 	private String sql;
 	private PreparedStatement ps;
 	private ResultSet rs;

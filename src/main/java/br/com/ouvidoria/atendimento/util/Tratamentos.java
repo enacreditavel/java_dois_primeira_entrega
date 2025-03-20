@@ -1,4 +1,4 @@
-package br.com.ouvidoria.atendimento.server;
+package br.com.ouvidoria.atendimento.util;
 
 import javax.swing.JOptionPane;
 
