@@ -12,16 +12,21 @@ public class LoginService {
 		// login
 
 		do {
-
 			String nomeUser = tratarVariavel.tratamentosStringNull("Nome: ", "Informe seu nome");
+			
+			if (nomeUser == null) {
+				return utilizador;
+			}
+
+			
 
 			String emailUser = tratarVariavel.tratamentosStringNull("Email: ", "Informe seu email");
-			
+
 			if (emailUser != null && nomeUser != null) {
 				utilizador = new Usuario(nomeUser, emailUser);
 				return utilizador;
-				
-			}
+
+			} 
 
 		} while (utilizador == null);
 
