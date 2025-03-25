@@ -4,7 +4,8 @@ Grupo: Igor dos Santos Coelho, Fábio Dias Alencar, Emanuel Silva Lira Brasil
 Atenção!!
 
 Para melhor funcionamento do programa, o banco de dados (MySQL) deve estar disponível para conexão, com schema:
-´´´sql
+
+```sql
 
 CREATE SCHEMA ouvidoria;
 
@@ -18,4 +19,5 @@ CREATE TABLE manifestacoes (
   descricao varchar(100) DEFAULT NULL,
   PRIMARY KEY (protocolo)
   );
-´´´
+  
+```
